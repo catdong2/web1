@@ -11,22 +11,57 @@
 
   gtag('config', 'UA-149830342-1');
 </script>
-
+<style>
+a{
+  color:black;
+  text-decoration: none;
+}
+h1{
+  font-size:45px;
+  text-align: center;
+  border-bottom: 1px gray solid;
+  margin:0;
+  padding:20px;
+}
+ol{
+  border-right: 1px gray solid;
+  width:100px;
+  margin:0;
+  padding:20px;
+}
+body{
+  margin:0;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol{
+  padding-left: 33px;
+}
+#article{
+  padding-left: 25px;
+}
+</style>
 </head>
 <body>
   <h1><a href="index.html">이서율 인생성공 프로젝트</a></h1>
+<div id="grid">
   <ol>
   <li><a href="1.html">10억 프로젝트</a></li>
   <li><a href="2.html">결혼 프로젝트</a></li>
   <li><a href="3.html">건강 프로젝트</a></li>
-  </ol>
+</ol>
+  <div id="article">
   <h2>인생, 너무 어렵게 살지 말자!</h2>
-
   <p>제갈량도 울고 갈 이서율의 3대 인생 프로젝트!<br>
     야, 이대로만이라면 나두 인생 성공 할 수 있어!<br>
     <img src="success.jpg" width="450">
   </p>
+
   <iframe width="560" height="315" src="https://www.youtube.com/embed/If95bdcptEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -40,5 +75,6 @@
   })();
   </script>
   <!--End of Tawk.to Script-->
+
 </body>
 </html>
